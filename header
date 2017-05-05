@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="catalogo">
+	<head>
+		<meta charset="utf-8">
+		<title>BR's Games</title>
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="lib/owl-carousel/owlcarousel.php">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/raty/lib/jquery.raty.css">
+		<link rel="stylesheet" href="css/brsgames.css">
+
+		<script src="lib/angularjs/angular.min.js"></script>
+
+	</head>
+	<body>
+
+		<header>
+			
+			<div class="container">
+				<img id="logotipo" src="img/logotipo.png" alt="Logotipo">
+			</div>
+
+			<div class="container">
+				
+				<div class="row">
+					
+					<nav id="menu" class="pull-right">
+						<ul>
+							<li><a href="index.php">Página Inicial</a></li>
+							<li><a href="catalogo">Produtos</a></li>
+							<li><a href="cart">Meu Carrinho</a></li>
+							<li class="search">
+								<div class="input-group">
+							      <input type="search" placeholder="buscar no site..." id="input-search">
+							      <span class="input-group-btn">
+							        <button type="button"><i class="fa fa-search"></i></button>
+							      </span>
+							    </div><!-- /input-group -->
+							</li>
+						</ul>
+					</nav>
+
+				</div>
+
+			</div>			
+
+		</header>
