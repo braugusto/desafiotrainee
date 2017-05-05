@@ -1,0 +1,99 @@
+<footer>
+
+			<div class="row row-cinza-claro">
+				
+				<div class="container">
+					
+					<div class="row">
+						
+						<div class="col-md-2 text-center">
+							
+							<img class="logotipo" src="img/logotipo.png" alt="Logotipo">
+
+						</div>
+						<div class="col-md-10">
+							
+							<div class="row row-cols">
+								<div class="col-md-4 col-popular-post">
+									
+									<h4>OPINIÕES DOS CLIENTES</h4>
+
+									<ul class="list-unstyled">
+										<li>
+											<h5>"Uma loja com preços justos."</h5>
+											<h6>Hayashii</h6>
+										</li>
+										<li>
+											<h5>"Mercadorias da melhor qualidade."</h5>
+											<h6>Mudinho</h6>
+										</li>
+
+									</ul>
+
+								</div>
+								<div class="col-md-4 col-links">
+									
+									<h4>UTILITÁRIOS</h4>
+
+									<ul class="list-unstyled">
+										<li><a href="#"><i class="fa fa-angle-right"></i>Fale Conosco</a></li>
+										<li><a href="#"><i class="fa fa-angle-right"></i>A Empresa</a></li>
+										<li><a href="#"><i class="fa fa-angle-right"></i>Seja Sócio</a></li>
+									</ul>
+
+								</div>
+								<div class="col-md-4 col-get-in-touch">
+									
+									<h4>LOCALIZAÇÃO E CONTATO</h4>
+
+									<address>
+										<i class="fa fa-map-marker"></i> <span>Av. Dom Hélder Câmara, 6001<br/>Rio de Janeiro, Brasil</span>
+									</address>
+
+									<p><a href="tel:1855ORLCITY"><i class="fa fa-phone"></i>+55(21)98841-4571</a></p>
+
+									<ul class="list-unstyled list-socials">
+										<li>
+											<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+										</li>
+										<li>
+											<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+										</li>
+										<li>
+											<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+										</li>
+										<li>
+											<a href="#" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row row-cinza-escuro">
+				
+				<div class="container">
+					
+					<p class="pull-left">Copyright © Br's Games, 2017. All rights reserved.</p>
+					<p class="pull-right text-roxo">Created by Bruno Augusto, Trainee IME-Jr</p>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="lib/raty/lib/jquery.raty.js"></script>
+
+	</body>
+</html>
