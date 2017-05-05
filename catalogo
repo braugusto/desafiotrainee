@@ -1,0 +1,45 @@
+<?php include_once("header.php");?>
+
+		<section ng-app="catalogo" >
+
+			<div id="ps4" ng-controller="itens-controller" class="container" >
+				
+				<div class="row text-center">
+					<h2>Jogos Para PS4 e XBox One</h2>
+					<hr>	
+				</div>				
+				<div class="row thumbnails">
+					<div class="col-md-2" ng-repeat="produto in produtos">
+
+							<img src="img/produtos/{{produto.foto_principal}}" alt="{{produto.nome_prod_longo}}">
+							<h3>{{produto.nome_prod_curto}}</h3>
+							<h4>R${{produto.preco}}</h4>
+							<div class="row">
+							<a href="carrinhoAdd-{{produto.id_prod}}" class="btn btn-comprar"><i class="fa fa-shopping-cart"></i> Comprar</a>
+							</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		
+<?php include_once("footer.php");?>
+
+<script>
+angular.module("catalogo", []).controller("itens-controller", function($scope, $http){
+
+	$scope.produtos = [];
+
+	$http({
+		method: 'GET',
+		url: 'produtos'
+	}).then(function sucessCallback(response){
+
+		$scope.produtos = response.data;
+	
+	}, function errorCallback(response){
+
+	});
+});
+
+</script>
